@@ -19,29 +19,29 @@ PIP_PACKAGES=(
 )
 
 NODES=(
-	"https://github.com/ltdrdata/ComfyUI-Manager"
-	"https://github.com/cubiq/ComfyUI_essentials"
-	"https://github.com/MushroomFleet/DJZ-Nodes"
-	"https://github.com/Gourieff/comfyui-reactor-node"
-	"https://github.com/ltdrdata/ComfyUI-Impact-Pack"
-	"https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes"
-	"https://github.com/rgthree/rgthree-comfy"
-	"https://github.com/crystian/ComfyUI-Crystools"
+    "https://github.com/ltdrdata/ComfyUI-Manager"
+    "https://github.com/cubiq/ComfyUI_essentials"
+    "https://github.com/MushroomFleet/DJZ-Nodes"
+    "https://github.com/Gourieff/comfyui-reactor-node"
+    "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+    "https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes"
+    "https://github.com/rgthree/rgthree-comfy"
+    "https://github.com/crystian/ComfyUI-Crystools"
     "https://github.com/city96/ComfyUI-GGUF"
-	"https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
-	"https://github.com/giriss/comfy-image-saver"
-	"https://github.com/Fannovel16/comfyui_controlnet_aux"
-	"https://github.com/WASasquatch/was-node-suite-comfyui"
-	"https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
-	"https://github.com/melMass/comfy_mtb"
+    "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
+    "https://github.com/giriss/comfy-image-saver"
+    "https://github.com/Fannovel16/comfyui_controlnet_aux"
+    "https://github.com/WASasquatch/was-node-suite-comfyui"
+    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
+    "https://github.com/melMass/comfy_mtb"
     "https://github.com/crystian/ComfyUI-Crystools"
     "https://github.com/rgthree/rgthree-comfy"
-	"https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
-	"https://github.com/sipherxyz/comfyui-art-venture"
-	"https://github.com/twri/sdxl_prompt_styler"
-	"https://github.com/hylarucoder/comfyui-copilot"
-	"https://github.com/kijai/ComfyUI-KJNodes"
-	"https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
+    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+    "https://github.com/sipherxyz/comfyui-art-venture"
+    "https://github.com/twri/sdxl_prompt_styler"
+    "https://github.com/hylarucoder/comfyui-copilot"
+    "https://github.com/kijai/ComfyUI-KJNodes"
+    "https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
     "https://github.com/city96/ComfyUI_ExtraModels"
     "https://github.com/chflame163/ComfyUI_LayerStyle"
     "https://github.com/kijai/ComfyUI-HunyuanVideoWrapper"
@@ -49,28 +49,29 @@ NODES=(
 )
 
 WORKFLOWS=(
-	"https://github.com/MushroomFleet/DJZ-Workflows"
+    "https://github.com/MushroomFleet/DJZ-Workflows"
 )
 
 CHECKPOINT_MODELS=(
-	#"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
-	#"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
-	#"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
-	#"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
+    #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
+    #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
+    #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
+    #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
 )
 
 UNET_MODELS=(
-	#"https://huggingface.co/camenduru/FLUX.1-dev/resolve/main/flux1-dev.sft"
+    #"https://huggingface.co/camenduru/FLUX.1-dev/resolve/main/flux1-dev.sft"
 )
 
 DIFFUSION_MODELS=(
-	"https://huggingface.co/city96/HunyuanVideo-gguf/resolve/main/hunyuan-video-t2v-720p-Q8_0.gguf"
- 	"https://huggingface.co/Kijai/HunyuanVideo_comfy/resolve/main/hunyuan_video_FastVideo_720_fp8_e4m3fn.safetensors"
+    #"https://huggingface.co/city96/HunyuanVideo-gguf/resolve/main/hunyuan-video-t2v-720p-Q8_0.gguf"
+    "https://huggingface.co/Kijai/HunyuanVideo_comfy/resolve/main/hunyuan_video_FastVideo_720_fp8_e4m3fn.safetensors"
+    #"https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors"
 )
 
 CLIP_MODELS=(
-	#"https://huggingface.co/camenduru/FLUX.1-dev/resolve/main/clip_l.safetensors"
-	#"https://huggingface.co/camenduru/FLUX.1-dev/resolve/main/t5xxl_fp16.safetensors"
+    "https://huggingface.co/camenduru/FLUX.1-dev/resolve/main/clip_l.safetensors"
+    #"https://huggingface.co/camenduru/FLUX.1-dev/resolve/main/t5xxl_fp16.safetensors"
 )
 
 TEXTENCODERS_MODELS=(
@@ -79,12 +80,13 @@ TEXTENCODERS_MODELS=(
 )
 
 LORA_MODELS=(
-	#"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/AssassinKahb-8-16-e9-10.safetensors"
+    #"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/AssassinKahb-8-16-e9-10.safetensors"
     "https://huggingface.co/mushroomfleet/HyVid-Lora-Collection/resolve/main/xjx-tokyoaracer.safetensors"
     "https://huggingface.co/mushroomfleet/HyVid-Lora-Collection/resolve/main/xjx-TokyoRacerV2-comfy.safetensors"
     "https://huggingface.co/mushroomfleet/HyVid-Lora-Collection/resolve/main/kck-cybersociety-video-V0.safetensors"
     "https://huggingface.co/mushroomfleet/HyVid-Lora-Collection/resolve/main/kbk_backrooms_comfyui.safetensors"
     "https://huggingface.co/mushroomfleet/HyVid-Lora-Collection/resolve/main/fxf-tokyoMeet-comfy.safetensors"
+    "https://huggingface.co/Kijai/HunyuanVideo_comfy/resolve/main/hyvideo_FastVideo_LoRA-fp8.safetensors"
 )
 
 VAE_MODELS=(
@@ -100,9 +102,9 @@ ESRGAN_MODELS=(
 )
 
 CONTROLNET_MODELS=(
-	#"https://huggingface.co/XLabs-AI/flux-controlnet-collections/resolve/main/flux-hed-controlnet-v3.safetensors"
-	#"https://huggingface.co/XLabs-AI/flux-controlnet-collections/resolve/main/flux-canny-controlnet-v3.safetensors"
-	#"https://huggingface.co/XLabs-AI/flux-controlnet-collections/resolve/main/flux-depth-controlnet-v3.safetensors"
+    #"https://huggingface.co/XLabs-AI/flux-controlnet-collections/resolve/main/flux-hed-controlnet-v3.safetensors"
+    #"https://huggingface.co/XLabs-AI/flux-controlnet-collections/resolve/main/flux-canny-controlnet-v3.safetensors"
+    #"https://huggingface.co/XLabs-AI/flux-controlnet-collections/resolve/main/flux-depth-controlnet-v3.safetensors"
     #"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_canny_mid.safetensors"
     #"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_depth_mid.safetensors"
     #"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/t2i-adapter_diffusers_xl_openpose.safetensors"
