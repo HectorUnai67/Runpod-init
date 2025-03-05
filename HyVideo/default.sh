@@ -46,6 +46,7 @@ NODES=(
     "https://github.com/chflame163/ComfyUI_LayerStyle"
     "https://github.com/kijai/ComfyUI-HunyuanVideoWrapper"
     "https://github.com/ShmuelRonen/ComfyUI-EmptyHunyuanLatent"
+    "https://github.com/chengzeyi/Comfy-WaveSpeed"
 )
 
 WORKFLOWS=(
